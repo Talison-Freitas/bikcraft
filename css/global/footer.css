@@ -76,6 +76,7 @@
     align-items: center;
     gap: 0px;
     justify-items: center;
+    margin-left: 60px;
   }
   .footer-contato ul {
     grid-column: 1;
