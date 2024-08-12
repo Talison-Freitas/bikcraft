@@ -62,3 +62,8 @@
 
   }
 }
+@media (max-width: 600px){
+  .font-1-xxl {
+    font-size: 1.75rem;
+  }
+}
