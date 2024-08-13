@@ -40,7 +40,7 @@
   margin-left: 12px;
   background: url(/img/icones/seta.svg);
 }
-.botao.seta:hover::after{ 
+.botao.seta:hover::after {
   transform: translateX(4px);
   transition: 0.3s;
 }
@@ -60,7 +60,7 @@
   text-transform: uppercase;
   position: relative;
 }
-.link::after{  
+.link::after {
   content: "";
   display: block;
   height: 2px;
@@ -83,10 +83,13 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.titulo {
+  background: url(/img/dec/bottom-left.svg) no-repeat top right 20px;
+}
 .titulo p {
   margin-bottom: 4px;
 }
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .titulo-bg {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -94,5 +97,8 @@
   .titulo p {
     font-size: 0.875rem;
     font-weight: 400;
+  }
+  #orcamento .titulo {
+    background: none;
   }
 }
