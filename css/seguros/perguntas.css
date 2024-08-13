@@ -14,7 +14,7 @@
 }
 .perguntas dt {
   display: grid;
-  grid-template-columns:auto 1fr auto;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 8px;
   cursor: pointer;
@@ -42,7 +42,7 @@
   padding-top: 16px;
   max-width: 80ch;
 }
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .perguntas {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -50,4 +50,56 @@
   .perguntas h2 {
     margin-bottom: 40px;
   }
+}
+.perguntas-conteudo label {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  cursor: pointer;
+}
+.content {
+  padding: 30px 20px;
+  border-radius: 4px;
+}
+.perguntas-conteudo label::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-right: 8px;
+}
+.perguntas-conteudo label::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url(/img/icones/seta-abrir.svg);
+  transition: 0.3s;
+}
+.perguntas-conteudo > div:nth-child(odd) {
+  background-color: var(--cor-1);
+}
+.perguntas-conteudo input {
+  max-width: max-content;
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.perguntas-conteudo input:checked + label:after {
+  transform: rotate(180deg);
+}
+.perguntas-conteudo input:checked + label + .resposta-conteudo {
+  transition: 1s;
+  display: block;
+}
+.resposta-conteudo {
+  display: none;
+}
+.resposta-conteudo .texto-conteudo {
+  color: var(--cor-9);
+  margin-top: 12px;
+  margin-left: 22px;
+  max-width: 80ch;
 }
