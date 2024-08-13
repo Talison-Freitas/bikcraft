@@ -12,15 +12,15 @@
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 /* Bicicletas */
-@import "./bicicletas/bicicletas-lista.css";
-@import "./bicicletas/bicicletas.css";
+@import "/bicicletas/bicicletas-lista.css";
+@import "/bicicletas/bicicletas.css";
 /* Bicicleta */
-@import "./bicicleta/bicicleta.css";
-@import "./bicicleta/seguro.css";
+@import "/css/bicicleta/bicicleta.css";
+@import "/css/bicicleta/seguro.css";
 /* Seguros */
-@import "./css/seguros/seguros.css";
-@import "./css/seguros/vantagens.css";
-@import "./css/seguros/perguntas.css";
+@import "/css/seguros/seguros.css";
+@import "/css/seguros/vantagens.css";
+@import "/css/seguros/perguntas.css";
 /* Contato */
 @import "./css/contato/contato.css";
 @import "./css/contato/lojas.css";
