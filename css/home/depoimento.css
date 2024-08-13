@@ -10,7 +10,7 @@
   object-fit: cover;
 }
 .depoimento-conteudo {
-  background: url(/img/dec/bottom-right-p.svg) no-repeat bottom 40px right 40px;
+  background: url("./img/dec/bottom-right-p.svg") no-repeat bottom 40px right 40px;
   padding: 40px 40px 80px 80px;
   align-self: end;
 }

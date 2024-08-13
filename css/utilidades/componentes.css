@@ -38,7 +38,7 @@
   width: 18px;
   height: 10px;
   margin-left: 12px;
-  background: url(/img/icones/seta.svg);
+  background: url("./img/icones/seta.svg");
 }
 .botao.seta:hover::after {
   transform: translateX(4px);
@@ -84,7 +84,7 @@
   padding-bottom: 60px;
 }
 .titulo {
-  background: url(/img/dec/bottom-left.svg) no-repeat top right 20px;
+  background: url("./img/dec/bottom-left.svg") no-repeat top right 20px;
 }
 .titulo p {
   margin-bottom: 4px;
