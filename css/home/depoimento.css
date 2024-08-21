@@ -1,7 +1,13 @@
+.depoimento-bg {
+  background-color: var(--cor-p1);
+}
 .depoimento {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--cor-p1);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .depoimento img {
   border-radius: 0px !important;
