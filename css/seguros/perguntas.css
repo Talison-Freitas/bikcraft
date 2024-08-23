@@ -42,14 +42,16 @@
 .perguntas button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
-.perguntas dd.ativo {
+.js .perguntas dd.ativo {
   display: block;
+}
+.js .perguntas dd {
+  display: none;
 }
 .perguntas dd {
   padding-left: 20px;
   padding-top: 16px;
   max-width: 80ch;
-  display: none;
 }
 @media (max-width: 800px) {
   .perguntas {
